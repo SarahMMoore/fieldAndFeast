@@ -64,7 +64,16 @@ table {
   --font: 'Playfair Display', serif;
 }
 /* GLOBAL STYLES (mobile first/small) */
-@media screen and (min-width: 320px) {}
+@media screen and (min-width: 450px) {
+  body {
+    margin: 0px auto;
+    max-width: 450px;
+    display: block;
+    font-family: var(--font);
+    background-color: var(--linen);
+    color: var(--dark-charcoal);
+  }
+}
 
 /* MEDIA QUERY (medium) */
 @media screen and (min-width: 600px) {}
