@@ -64,14 +64,37 @@ table {
   --font: 'Playfair Display', serif;
 }
 /* GLOBAL STYLES (mobile first/small) */
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 200px) {
   body {
-    margin: 0px auto;
-    max-width: 450px;
-    display: block;
     font-family: var(--font);
     background-color: var(--linen);
     color: var(--dark-charcoal);
+    font-size: small;
+    margin: 0px auto;
+
+  }
+  header {
+    background-color: var(--midnight-blue);
+    text-align: center;
+    padding: 20px 50px 0px 50px;
+  }
+  header img {
+    width: 175px;
+  }
+  header h1 {
+    background-color: var(--midnight-blue);
+    color: var(--linen);
+    padding: 10px;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+  }
+  header p {
+    background-color: var(--midnight-blue);
+    color: var(--linen);
+    font-size: 1rem;
+    font-style: italic;
+    padding: 10px 0px 30px 0px;
   }
 }
 
