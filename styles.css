@@ -103,10 +103,11 @@ table {
 		font-weight: 600;
 	}
 	h2 { 
-		font-size: 20px;
+		font-size: 18px;
 	}
 	h3 { 
-		font-size: larger; 
+		font-size: 15px; 
+		font-weight: 700;
 	}
 	p { 
 		font-size: x-small;
@@ -122,7 +123,63 @@ table {
 	.welcome p {
 		font-size: 9px;
 		line-height: 1.5;
+		padding-bottom: 15px;
+		border-bottom: 2px solid var(--champagne-gold);
+		border-width: fit-content;
 	}
+	.our-offerings {
+		padding: 0px 15px 15px 15px;
+	}
+	#artisan-provisions {
+		background-color: var(--olive-green);
+		color: var(--linen);
+		padding: 10px 10px 15px 15px;
+		margin: 15px 0px;
+	}
+	#artisan-provisions p {
+		font-size: 9px;
+		line-height: 1.5;
+	}
+	#exclusive-dining-experiences {
+		background-color: var(--olive-green);
+		color: var(--linen);
+		padding: 10px 10px 15px 15px;
+		margin: 15px 0px;
+	}
+	#exclusive-dining-experiences p {
+		font-size: 9px;
+		line-height: 1.5;
+	}
+	#the-field-and-feast-monthly-basket {
+		background-color: var(--olive-green);
+		color: var(--linen);
+		padding: 10px 10px 15px 15px;
+		margin: 15px 0px;
+	}
+	#the-field-and-feast-monthly-basket p {
+		font-size: 9px;
+		line-height: 1.5;
+	}
+	#the-field-and-feast-monthly-basket ul li {
+		font-size: 9px;
+		line-height: 1.5;
+		list-style: disc;
+		list-style-position: inside;
+	}
+	.a-gallery-field-feast {
+		padding: 30px 15px 20px 15px;
+	}
+	footer {
+			background-color: var(--midnight-blue);
+			color: var(--linen);
+			text-align: center;
+			padding: 10px;
+	}
+	footer a {
+		color: var(--champagne-gold);
+		text-decoration: none;
+	}
+
 }
 
 /* MEDIA QUERY MEDIUM */
