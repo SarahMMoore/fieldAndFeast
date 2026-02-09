@@ -68,20 +68,23 @@ table {
 	body {
 		font-family: var(--font);
 		font-size: small;
-		background-color: var(--soft-white);
+		background-color: var(--linen);
 		color: var(--dark-charcoal);
 		display: grid;
 		grid-template-rows: auto auto 1fr;
 	}
 	header { 
+		background-color: var(--midnight-blue);
+		color: var(--linen);
 		text-align: center; 
 	}
 	header img { 
-		max-width: 100%; 
-		height: auto; 
+		padding-top: 10px;
+		width: 40%;
 	}
 	nav { 
 		background: var(--champagne-gold); 
+		padding: 10px 0px;
 	}
 	nav ul { 
 		display: grid; 
@@ -91,10 +94,13 @@ table {
 	nav a { 
 		color: var(--midnight-blue); 
 		display: block; 
-		text-decoration: none; 
+		text-decoration: none;
+		font-weight: 700; 
 	}
 	h1 { 
-		font-size: x-large; 
+		padding: 10px;
+		font-size: 2.5rem;
+		font-weight: 600;
 	}
 	h2 { 
 		font-size: large;
@@ -104,6 +110,11 @@ table {
 	}
 	p { 
 		font-size: x-small;
+	}
+	header p {
+		font-size: .75rem;
+		font-style: italic;
+		padding: 10px 0px 20px 0px;
 	}
 }
 
