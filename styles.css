@@ -78,6 +78,9 @@ table {
 		text-align: center; 
 	}
 	header img { 
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 		padding-top: 10px;
 		width: 40%;
 	}
@@ -236,13 +239,17 @@ table {
 			background-color: var(--midnight-blue);
 			color: var(--linen);
 			text-align: center;
-			padding: 10px;
+			padding: 50px;
+			font-size: 10px;
+			line-height: 1.5;
 	}
 	footer a {
 		color: var(--champagne-gold);
 		text-decoration: none;
 	}
-
+	.social-media {
+		padding-top: 20px;
+	}
 }
 
 /* MEDIA QUERY MEDIUM */
