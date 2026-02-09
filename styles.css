@@ -64,38 +64,51 @@ table {
   --font: 'Playfair Display', serif;
 }
 /* GLOBAL STYLES (mobile first/small) */
-@media screen and (min-width: 200px) {
-  body {
-    font-family: var(--font);
-    background-color: var(--linen);
-    color: var(--dark-charcoal);
-    font-size: small;
-    margin: 0px auto;
 
-  }
-  header {
-    background-color: var(--midnight-blue);
-    text-align: center;
-    padding: 20px 50px 0px 50px;
-  }
-  header img {
-    width: 175px;
-  }
-  header h1 {
-    background-color: var(--midnight-blue);
-    color: var(--linen);
-    padding: 10px;
-    font-size: 3rem;
-    font-weight: 700;
-    text-align: center;
-  }
-  header p {
-    background-color: var(--midnight-blue);
-    color: var(--linen);
-    font-size: 1rem;
-    font-style: italic;
-    padding: 10px 0px 30px 0px;
-  }
+header{
+	font-family: var(--font);
+	background-color: var(--midnight-blue);
+	color: var(--linen);
+}
+nav {
+	background-color: var(--champagne-gold);
+}
+nav li a{
+	text-decoration: none;
+		color: var(--midnight-blue);
+		font-size: 1.5rem;
+}
+h1 {
+	font-size: 2.5rem;
+}
+h2{
+	font-size: 1.5rem;
+}
+h3 {
+	font-size: 1.25rem;
+}
+figcaption {
+	font-size: 1rem;
+	color: var(--dark-charcoal);
+	font-style: italic;
+}
+body {
+	font-family: var(--font);
+	background-color: var(--soft-white);
+	color: var(--dark-charcoal);
+	line-height: 1.6;
+}
+
+footer {
+	font-family: var(--font);
+	background-color: var(--midnight-blue);
+	color: var(--soft-white);
+}
+footer a {
+	text-decoration: none;
+	color: var(--champagne-gold);
+	font-size: 1rem;
+	font-weight: bold;
 }
 
 /* MEDIA QUERY (medium) */
