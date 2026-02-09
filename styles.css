@@ -67,7 +67,7 @@ table {
 @media only screen and (min-width: 300px) {
 	body {
 		font-family: var(--font);
-		background-color: var(--linen);
+		background-color: var(--soft-white);
 		color: var(--dark-charcoal);
 		display: grid;
 		grid-template-rows: auto auto 1fr;
@@ -119,22 +119,37 @@ table {
 	}
 	.welcome {
 		padding: 30px 15px 20px 15px;
+		line-height: 1.5;
 	}
 	.welcome p {
 		font-size: 9px;
 		line-height: 1.5;
-		padding-bottom: 15px;
-		border-bottom: 2px solid var(--champagne-gold);
-		border-width: fit-content;
+	}
+	.our-offerings::before {
+		content: "";
+		display: block;
+		height: 2px;
+		background-color: var(--champagne-gold);
+		margin-bottom: 20px;
 	}
 	.our-offerings {
 		padding: 0px 15px 15px 15px;
+	}
+	.our-offerings::after {
+		content: "";
+		display: block;
+		height: 2px;
+		background-color: var(--champagne-gold);
+		margin-top: 20px;
 	}
 	#artisan-provisions {
 		background-color: var(--olive-green);
 		color: var(--linen);
 		padding: 10px 10px 15px 15px;
 		margin: 15px 0px;
+		border-radius: 5px;
+		filter: drop-shadow(0px 2px 2px #2B2B2B80);
+		line-height: 1.5;
 	}
 	#artisan-provisions p {
 		font-size: 9px;
@@ -145,6 +160,9 @@ table {
 		color: var(--linen);
 		padding: 10px 10px 15px 15px;
 		margin: 15px 0px;
+		border-radius: 5px;
+		filter: drop-shadow(0px 2px 2px #2B2B2B80);
+		line-height: 1.5;
 	}
 	#exclusive-dining-experiences p {
 		font-size: 9px;
@@ -155,6 +173,9 @@ table {
 		color: var(--linen);
 		padding: 10px 10px 15px 15px;
 		margin: 15px 0px;
+		border-radius: 5px;
+		filter: drop-shadow(0px 2px 2px #2B2B2B80);
+		line-height: 1.5;
 	}
 	#the-field-and-feast-monthly-basket p {
 		font-size: 9px;
@@ -167,7 +188,49 @@ table {
 		list-style-position: inside;
 	}
 	.a-gallery-field-feast {
-		padding: 30px 15px 20px 15px;
+		padding: 0px 25px 20px 15px;
+		line-height: 1.5;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 9px;
+	}
+	.a-gallery-field-feast p {
+		line-height: 1.5;
+		font-size: 9px;
+		padding-bottom: 10px;
+	}
+	img {
+		display: block;
+		width: 100%;
+		height: auto;
+		border-radius: 5px 5px 0px 0px;
+	}
+	figcaption {
+		font-size: 8px;
+		padding: 5px;
+		margin-bottom: 10px;
+		text-align: center;
+		font-style: italic;
+		background-color: var(--linen);
+		border-radius: 0px 0px 5px 5px;
+		filter: drop-shadow(0px 2px 2px #2B2B2B80);
+	}
+	.button-style {
+		background-color: var(--olive-green);
+		color: var(--soft-white);
+		text-align: center;
+		padding: 10px;
+		border-radius: 5px;
+		font-size: 9px;
+		font-weight: 700;
+	}	
+	.a-gallery-field-feast::after {
+		content: "";
+		display: block;
+		height: 2px;
+		background-color: var(--champagne-gold);
+		margin-top: 20px;
 	}
 	footer {
 			background-color: var(--midnight-blue);
