@@ -67,7 +67,6 @@ table {
 @media only screen and (min-width: 300px) {
 	body {
 		font-family: var(--font);
-		font-size: small;
 		background-color: var(--linen);
 		color: var(--dark-charcoal);
 		display: grid;
@@ -94,27 +93,35 @@ table {
 	nav a { 
 		color: var(--midnight-blue); 
 		display: block; 
+		font-size: 13px;
 		text-decoration: none;
 		font-weight: 700; 
 	}
 	h1 { 
 		padding: 10px;
-		font-size: 2.5rem;
+		font-size: 40px;
 		font-weight: 600;
 	}
 	h2 { 
-		font-size: large;
+		font-size: 20px;
 	}
 	h3 { 
-		font-size: medium; 
+		font-size: larger; 
 	}
 	p { 
 		font-size: x-small;
 	}
 	header p {
-		font-size: .75rem;
+		font-size: 12.5px;
 		font-style: italic;
 		padding: 10px 0px 20px 0px;
+	}
+	.welcome {
+		padding: 30px 15px 20px 15px;
+	}
+	.welcome p {
+		font-size: 9px;
+		line-height: 1.5;
 	}
 }
 
