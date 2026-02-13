@@ -65,31 +65,6 @@ table {
 }
 /* GLOBAL STYLES (mobile first/small) */
 @media only screen and (min-width: 300px) {
-	body{
-		max-width: 599px;
-		font-family: var(--font);	
-		background-color: var(--soft-white);
-	}
-	header {
-		background : var(--midnight-blue);
-		color: var(--soft-white);
-	}
-	hgroup {
-		text-align: center;
-		padding-bottom: 20px;
-	}
-	hgroup p {
-		font-style : italic;
-  	font-size : 12px;
-  	letter-spacing : -0.25px;
-  	color : var(--soft-white);
-	}
-	hgroup img {
-		width: 115px;
-		display: block;
-		margin: 0 auto;
-		padding-top: 20px;
-	}
 	h1{
 	font-weight : bold;
   font-size : 36px;
@@ -101,6 +76,7 @@ table {
 	font-size: 18px;
 	letter-spacing: 0.25px;
 	color: var(--midnight-blue);
+	line-height: 21.6px;
 
 	}
 	h3 {
@@ -108,11 +84,38 @@ table {
   font-size : 16px;
   letter-spacing : -0.16px;
 	color: var(--soft-white);
+	line-height: 20px;
+	}
+	body{
+		max-width: 599px;
+		min-height: 2300px;
+		font-family: var(--font);	
+		background-color: var(--soft-white);
+	}
+	header {
+		background : var(--midnight-blue);
+		color: var(--soft-white);
+		min-height: 280px;
+	}
+	hgroup {
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	hgroup img {
+		width: 116px;
+		display: block;
+		margin: 0 auto;
+		padding-top: 20px;
+	}
+	hgroup p {
+		font-style : italic;
+  	font-size : 12px;
+  	letter-spacing : -0.25px;
+  	color : var(--soft-white);
 	}
 	nav {
 		background-color: var(--champagne-gold);
-		height: 30px;
-		padding-bottom: 0%;
+		min-height: 30px;
 	}
 	nav ul {
 		text-align: center;
@@ -120,44 +123,86 @@ table {
 		grid-template-columns: 1fr 1fr 1fr;
 		padding: 7px;
 	}
-nav a {
+	nav a {
 		text-decoration: none;
 		color: var(--midnight-blue);
 		font-size: 14px;
 		font-weight: 700;
-	}
-	body {
-		height: 1850px;
-	}
+	}	
+	main {
+		background-color: var(--soft-white);
+		min-height: 1850px;
+		margin-left: 15px;
+		margin-right: 15px;
+	}	
 	p {
  	font-size : 9px;
   line-height : 14px;
   letter-spacing : 0.10px;
 	color: var(--dark-charcoal);
 	}
-	#our-offerings p {
-	color: var(--soft-white);
+	#welcome {
+		padding: 40px 0px 15px 0px;
+		line-height: 21.5px;
 	}
-	ul li {
-	font-size: 9px;
-	line-height: 13.9px;
-	letter-spacing: 0.11px;
-	color: var(--soft-white);
-}
-.artisan-provisions {
-	background-color: var(--olive-green);
-	border-radius: 4px;
-	box-shadow: 0px 2px 2px var(--dark-charcoal)75%;
-}
-.exclusive-dining-experiences {
-	background-color: var(--olive-green);
-	border-radius: 4px;
-	box-shadow: 0px 2px 2px var(--dark-charcoal)75%;
-}
-.the-field-and-feast-monthly-basket {
-	background-color: var(--olive-green);
-	border-radius: 4px;
-	box-shadow: 0px 2px 2px var(--dark-charcoal)75%;
+	#welcome p {
+		padding-bottom: 15px;
+		border-bottom: 2px;
+		border-color: var(--champagne-gold);
+		border-style : Solid;
+	}
+	#our-offerings p {
+		color: var(--soft-white);
+	}
+	#our-offerings h2 {
+		padding-bottom: 10px;
+		padding-right: 15px;
+	}
+	.artisan-provisions {
+		padding: 10px;
+		background-color: var(--olive-green);
+		border-radius: 4px;
+		letter-spacing: 12px;
+		margin-bottom: 10px;
+	}
+	.exclusive-dining-experiences {
+		padding: 10px;
+		background-color: var(--olive-green);
+		border-radius: 4px;
+		letter-spacing: 12px;
+		margin-bottom: 10px;
+	}
+	.the-field-and-feast-monthly-basket {
+		padding: 10px;
+		background-color: var(--olive-green);
+		border-radius: 4px;
+		letter-spacing: 12px;
+		margin-bottom: 10px;
+	}
+	.the-field-and-feast-monthly-basket ul li {
+		font-size: 9px;
+		line-height: 13.9px;
+		letter-spacing: 0.11px;
+		color: var(--soft-white);
+		list-style: disc;
+		list-style-position: inside;
+		}
+	#a-gallery-field-feast {
+		padding-top: 15px;
+		border-top: 2px;
+		border-color: var(--champagne-gold);
+		border-style : Solid;
+	}
+	#a-gallery-field-feast p {
+		padding-bottom: 10px;
+	}
+
+	.tomatoes, .olive-oil, .table-setting, .chef-plating, .basket figcaption {
+		padding-top: 10px;
+		font-size: 9px;
+		font-style: italic;
+		text-align: center;
+	}
 }
 
 /* MEDIA QUERY MEDIUM */
