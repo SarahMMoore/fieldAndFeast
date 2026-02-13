@@ -88,7 +88,6 @@ table {
 	}
 	body{
 		max-width: 599px;
-		min-height: 2300px;
 		font-family: var(--font);	
 		background-color: var(--soft-white);
 	}
@@ -132,8 +131,8 @@ table {
 	main {
 		background-color: var(--soft-white);
 		min-height: 1850px;
-		margin-left: 15px;
-		margin-right: 15px;
+		margin: 0px 15px 15px;
+		border-bottom: 2px solid var(--champagne-gold);
 	}	
 	p {
  	font-size : 9px;
@@ -164,7 +163,7 @@ table {
 		border-radius: 4px;
 		letter-spacing: 12px;
 		margin-bottom: 10px;
-		filter: drop-shadow(2px 3px 2px #2B2B2B75);
+		filter: drop-shadow(-1px 3px 2px #2B2B2B75);
 	}
 	.the-field-and-feast-monthly-basket ul li {
 		font-size: 9px;
@@ -183,7 +182,7 @@ table {
 	#a-gallery-field-feast p {
 		padding-bottom: 10px;
 	}
-	img {
+	#a-gallery-field-feast img {
 		display: block;
 		object-fit: cover;
 		width: 100%;
@@ -197,13 +196,42 @@ table {
 		border-radius: 5px;
 		filter: drop-shadow(0px 3px 2px #2B2B2B75);
 		margin-bottom: 10px;
-		
 	}
 	.tomatoes, .olive-oil, .table-setting, .chef-plating, .basket figcaption {
 		font-size: 9px;
 		font-style: italic;
 		text-align: center;
 		padding-bottom: 10px;		
+	}
+	.full-gallery {
+		background-color: var(--olive-green);
+		min-width: 270px;
+		min-height: 25px;
+		border-radius: 2px;		
+	}
+	.full-gallery p {
+		padding-top: 8px;
+		color: var(--soft-white);
+		font-weight: 700;
+		text-align: center;
+	}
+	footer {
+		padding-top: 50px;
+		background-color: var(--midnight-blue);
+		max-height: 138px;
+		color: var(--soft-white);
+		font-size: 9px;
+		line-height: 14px;
+		text-align: center;
+	}
+	footer a {
+		color: var(--champagne-gold);
+		text-decoration: none;
+		font-weight: 700;
+	}
+	.social-media {
+		padding-top: 20px;
+		padding-bottom: 15px;
 	}
 }
 
