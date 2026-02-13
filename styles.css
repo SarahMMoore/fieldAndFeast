@@ -65,29 +65,9 @@ table {
 }
 /* GLOBAL STYLES (mobile first/small) */
 @media only screen and (min-width: 300px) {
-	h1{
-	font-weight : bold;
-  font-size : 36px;
-  letter-spacing : 0.5px;
-	padding-bottom: 15px;
-  color : var(--soft-white);
-	}
-	h2 {
-	font-size: 18px;
-	letter-spacing: 0.25px;
-	color: var(--midnight-blue);
-	line-height: 21.6px;
-
-	}
-	h3 {
-	font-weight : bold;
-  font-size : 16px;
-  letter-spacing : -0.16px;
-	color: var(--soft-white);
-	line-height: 20px;
-	}
 	body{
 		max-width: 599px;
+		min-height: 2300px;
 		font-family: var(--font);	
 		background-color: var(--soft-white);
 	}
@@ -118,6 +98,7 @@ table {
 	}
 	nav ul {
 		text-align: center;
+		place-items: center;
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		padding: 7px;
@@ -128,6 +109,26 @@ table {
 		font-size: 14px;
 		font-weight: 700;
 	}	
+	h1{
+	font-weight : bold;
+  font-size : 36px;
+  letter-spacing : 0.5px;
+	padding-bottom: 15px;
+  color : var(--soft-white);
+	}
+	h2 {
+	font-size: 18px;
+	letter-spacing: 0.25px;
+	color: var(--midnight-blue);
+	line-height: 21.6px;
+	}
+	h3 {
+	font-weight : bold;
+  font-size : 16px;
+  letter-spacing : -0.16px;
+	color: var(--soft-white);
+	line-height: 20px;
+	}
 	main {
 		background-color: var(--soft-white);
 		min-height: 1850px;
@@ -162,8 +163,8 @@ table {
 		background-color: var(--olive-green);
 		border-radius: 4px;
 		letter-spacing: 12px;
-		margin-bottom: 10px;
-		filter: drop-shadow(-1px 3px 2px #2B2B2B75);
+		margin-bottom: 15px;
+		filter: drop-shadow(-1px 3px 2px #2B2B2B50);
 	}
 	.the-field-and-feast-monthly-basket ul li {
 		font-size: 9px;
@@ -174,6 +175,7 @@ table {
 		list-style-position: inside;
 		}
 	#a-gallery-field-feast {
+		margin-bottom: 15px;
 		padding-top: 15px;
 		border-top: 2px;
 		border-color: var(--champagne-gold);
@@ -194,7 +196,7 @@ table {
 		align-items: center;
 		background-color: var(--soft-white);
 		border-radius: 5px;
-		filter: drop-shadow(0px 3px 2px #2B2B2B75);
+		filter: drop-shadow(1px 3px 2px #2B2B2B50);
 		margin-bottom: 10px;
 	}
 	.tomatoes, .olive-oil, .table-setting, .chef-plating, .basket figcaption {
@@ -218,7 +220,6 @@ table {
 	footer {
 		padding-top: 50px;
 		background-color: var(--midnight-blue);
-		max-height: 138px;
 		color: var(--soft-white);
 		font-size: 9px;
 		line-height: 14px;
@@ -234,9 +235,9 @@ table {
 		padding-bottom: 15px;
 	}
 }
-
 /* MEDIA QUERY MEDIUM */
-@media screen and (min-width: 600px) {}
+@media screen and (min-width: 600px) {
+}
   
 /* MEDIA QUERY LARGE */
 @media screen and (min-width :900px) {}
