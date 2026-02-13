@@ -102,7 +102,7 @@ table {
 		padding-bottom: 20px;
 	}
 	hgroup img {
-		width: 116px;
+		min-width: 116px;
 		display: block;
 		margin: 0 auto;
 		padding-top: 20px;
@@ -158,26 +158,13 @@ table {
 		padding-bottom: 10px;
 		padding-right: 15px;
 	}
-	.artisan-provisions {
+	.artisan-provisions, .exclusive-dining-experiences, .the-field-and-feast-monthly-basket {
 		padding: 10px;
 		background-color: var(--olive-green);
 		border-radius: 4px;
 		letter-spacing: 12px;
 		margin-bottom: 10px;
-	}
-	.exclusive-dining-experiences {
-		padding: 10px;
-		background-color: var(--olive-green);
-		border-radius: 4px;
-		letter-spacing: 12px;
-		margin-bottom: 10px;
-	}
-	.the-field-and-feast-monthly-basket {
-		padding: 10px;
-		background-color: var(--olive-green);
-		border-radius: 4px;
-		letter-spacing: 12px;
-		margin-bottom: 10px;
+		filter: drop-shadow(2px 3px 2px #2B2B2B75);
 	}
 	.the-field-and-feast-monthly-basket ul li {
 		font-size: 9px;
@@ -196,12 +183,27 @@ table {
 	#a-gallery-field-feast p {
 		padding-bottom: 10px;
 	}
-
+	img {
+		display: block;
+		object-fit: cover;
+		width: 100%;
+		height: 100%;		
+		padding-bottom: 10px;
+		border-radius: 5px;
+	}
+	.tomatoes, .olive-oil, .table-setting, .chef-plating, .basket {
+		align-items: center;
+		background-color: var(--soft-white);
+		border-radius: 5px;
+		filter: drop-shadow(0px 3px 2px #2B2B2B75);
+		margin-bottom: 10px;
+		
+	}
 	.tomatoes, .olive-oil, .table-setting, .chef-plating, .basket figcaption {
-		padding-top: 10px;
 		font-size: 9px;
 		font-style: italic;
 		text-align: center;
+		padding-bottom: 10px;		
 	}
 }
 
