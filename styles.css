@@ -243,7 +243,7 @@ table {
 @media screen and (min-width: 600px) {
 	body {
 		max-width: 899px;
-		min-height: 2760px;
+		max-height: 2760px;
 	}
 	header {
 		min-height: 485px;
@@ -291,6 +291,9 @@ table {
 		letter-spacing: -0.03px;
 		line-height: 24px;
 	}
+	#welcome {
+		max-height: 273px;
+	}
 	#our-offerings {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -300,7 +303,12 @@ table {
 			"artisan dining"
 			"field field";
 		grid-area: offering;
-		gap: 15px;
+		column-gap: 20px;
+		row-gap: 5px;
+	}
+	.artisan-provisions, .exclusive-dining-experiences, .the-field-and-feast-monthly-basket, .tomatoes, .olive-oil, .table-setting, .chef-plating, .basket {
+		border-radius: 9px;
+		filter: drop-shadow(1px 3px 3px #2B2B2B90);
 	}
 	.artisan-provisions {
 		grid-area: artisan;
@@ -319,60 +327,72 @@ table {
 	#a-gallery-field-feast {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-template-rows: auto auto auto auto auto;
-		grid-template-areas: 
-		"title title"
-		"experience experience"
-		"tomatoes olive-oil"
-		"tablescape plating"
-		"basket basket";
-		row-gap: 15px;
+		grid-template-rows: auto auto auto auto auto auto;
+		column-gap: 20px;
+		row-gap: 10px;
 	}
 	#a-gallery-field-feast h2 {
-		grid-area: title;
+		grid-column: span 2;
+		grid-row: 1;
 	}
 	#a-gallery-field-feast p {
-		grid-area: experience;
+		grid-column: span 2;
+		grid-row: 2;
 	}
 	#a-gallery-field-feast img {
-		min-height: 175px;
+		max-height: 175px;
 	}
 	.tomatoes {
-		min-height: 235px;
-		grid-area: tomatoes;
-
+		grid-column: 1;
+		grid-row: 3;	
+		min-height: 235px;	
 	}
 	.olive-oil {
-		grid-area: olive-oil;
-
+		grid-column: 2;
+		grid-row: 3;		
+		min-height: 235px;	
 	}
 	.table-setting {
-		grid-area: tablescape;
-
+		grid-column: 1;
+		grid-row: 4;
+		min-height: 235px;	
 	}
 	.chef-plating {
-		grid-area: plating;
-
+		grid-column: 2;
+		grid-row: 4;
+		min-height: 235px;	
 	}
 	.basket {
-		grid-area: basket;
-
+		grid-column: 1;
+		grid-row: 5;
+		min-height: 235px;	
 	}
-	figcaption {
+	.full-gallery {
+		grid-column: span 2;
+		grid-row: 6;
+		min-height: 50px;
+	}
+	.tomatoes, .olive-oil, .table-setting, .chef-plating, .basket figcaption {
 		font-size: 14px;
 		letter-spacing: 0.17px;
 		line-height: 16.8px;
 	}
+	figcaption {
+		padding-top: 8px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 	footer {
-
 		font-size: 15px;
 		letter-spacing: 0.11px;
 		line-height: 25px;
+		min-height: 240px;
 	}
 	.social-media {
 		padding-top: 40px;
-		padding-bottom: 30px;
+
 	}
+
 }
 /* MEDIA QUERY LARGE */
 @media screen and (min-width :900px) {}
