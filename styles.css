@@ -65,7 +65,7 @@ table {
 }
 /* GLOBAL STYLES (mobile first/small) */
 @media only screen and (min-width: 300px) {
-	body{
+	body {
 		max-width: 599px;
 		min-height: 2300px;
 		font-family: var(--font);	
@@ -109,7 +109,7 @@ table {
 		font-size: 14px;
 		font-weight: 700;
 	}	
-	h1{
+	h1 {
 	font-weight : bold;
   font-size : 36px;
   letter-spacing : 0.5px;
@@ -237,6 +237,171 @@ table {
 }
 /* MEDIA QUERY MEDIUM */
 @media screen and (min-width: 600px) {
+	body{
+		max-width: 899px;
+		min-height: 2765px;
+	}
+	header {
+		min-height: 485px;
+	}
+	hgroup img {
+		min-width: 200px;
+		min-height: 300px;
+	}
+	h1 {
+		font-size: 65px;
+		letter-spacing: -0.32px;
+		line-height: 78px;
+	}
+	hgroup p {
+		font-size: 20px;
+		letter-spacing: -0.04px;
+		line-height: 24px;
+	}
+	nav {
+		min-height: 50px;
+	}
+	nav a {
+		font-size: 24px;
+		letter-spacing: -0.05px;
+		line-height: 28.8px;
+	}	
+	h2 {
+		font-size: 33px;
+		letter-spacing: -0.86px;
+		line-height: 39.6px;
+	}
+	#welcome {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	#welcome p {
+		font-size: 16px;
+		letter-spacing: -0.03px;
+		line-height: 24px;
+		min-width: 540px;
+	}
+	#our-offerings {
+		padding-left: 15px;
+		padding-right: 15px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto auto auto;
+		grid-template-areas: 
+			"offering offering"
+			"artisan dining"
+			"field field";
+		gap: 15px;
+		grid-area: offering;
+	}
+	.artisan-provisions {
+
+		grid-area: artisan;
+	}
+	.artisan-provisions h3 {
+		width: 225px;
+		font-size: 29px;
+		letter-spacing: -0.7px;
+		line-height: 42px;
+		padding-left: 5px;		
+	}
+	.artisan-provisions p {
+		font-size: 15px;
+		letter-spacing: 0.41px;
+		line-height: 24px;
+		width: 230px;
+		padding-left: 5px;
+	}
+	.exclusive-dining-experiences {
+
+		grid-area: dining;
+	}
+	.exclusive-dining-experiences h3 {
+		width: 225px;
+		font-size: 29px;
+		letter-spacing: -0.7px;
+		line-height: 42px;
+		padding-left: 5px;
+	}
+	.exclusive-dining-experiences p {
+		font-size: 15px;
+		letter-spacing: 0.41px;
+		line-height: 24px;
+		width: 230px;
+		padding-left: 5px;
+	}
+	.the-field-and-feast-monthly-basket {
+		width: 520px;
+			grid-area: field;
+	}
+	.the-field-and-feast-monthly-basket h3 {
+		width: 450px;
+		font-size: 28px;
+		letter-spacing: -0.06px;
+		line-height: 33.6px;	
+		padding-left: 5px;
+	}
+	.the-field-and-feast-monthly-basket p {
+		font-size: 16px;
+		letter-spacing: -0.03px;
+		line-height: 24px;
+		width: 510px;
+		padding-left: 5px;
+	}
+	.the-field-and-feast-monthly-basket ul li {
+		font-size: 16px;
+		letter-spacing: -0.03px;
+		line-height: 24px;
+		width: 510px;
+		padding-left: 5px;
+		}
+
+	h3 {
+	
+	}
+	main {
+		
+	}	
+	p {
+ 	
+	}
+	
+	.artisan-provisions, .exclusive-dining-experiences, .the-field-and-feast-monthly-basket {
+		
+	}
+	.the-field-and-feast-monthly-basket ul li {
+		
+		}
+	#a-gallery-field-feast {
+		
+	}
+	#a-gallery-field-feast p {
+		
+	}
+	#a-gallery-field-feast img {
+		
+	}
+	.tomatoes, .olive-oil, .table-setting, .chef-plating, .basket {
+		
+	}
+	.tomatoes, .olive-oil, .table-setting, .chef-plating, .basket figcaption {
+		
+	}
+	.full-gallery {
+			
+	}
+	.full-gallery p {
+		
+	}
+	footer {
+	
+	}
+	footer a {
+
+	}
+	.social-media {
+	
+	}
 }
   
 /* MEDIA QUERY LARGE */
