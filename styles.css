@@ -66,16 +66,33 @@ table {
 /* GLOBAL STYLES (mobile first/small) */
 @media only screen and (min-width: 300px) {
 	body{
-		
+		font-family: var(--playfair);
 	}
 	header{
 		background-color: #1F2A44;
+		color: #FAF9F6;
 	}
 	nav{
 		background-color: #E5C185;
 	}
+	nav a{
+		color: #1F2A44;
+		text-decoration: none;
+	}
 	main{
 		background-color: #FAF9F6;
+		color: #2B2B2B;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	h1{
+		color:#FAF9F6
+	}
+	h2{
+		color:#1F2A44;
+	}
+	h3{
+		color:#FAF9F6;
 	}
 	.artisan-provisions{
 		background-color: #76885B;
@@ -106,6 +123,11 @@ table {
 	}
 	footer{
 		background-color: #1F2A44;
+		color: #FAF9F6;
+	}
+	footer a{
+		color: #E5C185;
+		text-decoration: none;
 	}
 	
 }
