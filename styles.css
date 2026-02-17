@@ -66,6 +66,48 @@ table {
 /* GLOBAL STYLES (mobile first/small) */
 @media only screen and (min-width: 300px) {
 	body{
+		font-family: var(--playfair);
+	}
+	header{
+		background-color: #1F2A44;
+		color: #FAF9F6;
+		display: grid;
+		place-items: center;
+		text-align: center;
+		font-size: 9px;
+		font-style: italic;
+		min-height: 281px;
+	}
+	header img{
+		padding-top: 22px;
+	}
+	h1{
+		font-size: 28px;
+		font-style: normal;
+		font-weight: 700;
+		padding-top: 30px;
+	}
+	header p{
+		padding-top: 20px;
+		padding-bottom: 15px;
+	}
+	nav{
+		background-color: #E5C185;
+		min-height: 30px;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		justify-content: center;
+	}
+	nav a{
+		color: #1F2A44;
+		display: inline;
+		font-size: 12px;
+		font-weight: 700;
+		text-decoration: none;
+		text-align: center;
+		padding-top: 10px;
+		text-decoration: none;
+	}
 		
 
 	
