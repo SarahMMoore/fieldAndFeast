@@ -74,20 +74,18 @@ table {
 		display: grid;
 		place-items: center;
 		text-align: center;
-		font-size: 9px;
-		font-style: italic;
-		min-height: 281px;
 	}
 	header img{
 		padding-top: 22px;
 	}
 	h1{
 		font-size: 28px;
-		font-style: normal;
 		font-weight: 700;
 		padding-top: 30px;
 	}
 	header p{
+		font-size: 9px;
+		font-style: italic;
 		padding-top: 20px;
 		padding-bottom: 15px;
 	}
@@ -107,6 +105,64 @@ table {
 		text-align: center;
 		padding-top: 10px;
 		text-decoration: none;
+	}
+	main{
+		background-color: #FAF9F6;
+		padding: 40px 15px 20px;
+	}
+	h2{
+		color: #1F2A44;
+		font-size: 16px;
+		font-weight: 600;
+		padding-bottom: 12px;
+	}
+	h3{
+		color: #FAF9F6;
+		font-size: 13px;
+		font-weight: 700;
+		line-height: 20px;
+	}
+	li{
+		list-style: disc;
+		list-style-position: inside;
+	}
+	#welcome p{
+		font-size: 9px;
+		line-height: 15px;
+		padding-bottom: 15px;
+	}
+	#welcome::after{
+		content: '';
+		display: block;
+		height: 2px;
+		background-color: #E5C185;
+	}
+	#our-offerings{
+		padding-top: 15px;
+	}
+	#our-offerings{
+		color: #FAF9F6;
+		font-size: 9px;
+	}
+	.artisan-provisions, .exclusive-dining-experiences, .the-field-and-feast-monthly-basket{
+		background-color: #76885B;
+		border-radius: 5px;
+		margin: 10px 0;
+		padding: 15px 10px 15px 10px;
+		line-height: 15px;
+		box-shadow: 0 3px 5px 0 #2B2B2B75;
+	}
+	#our-offerings::after{
+		content: '';
+		display: block;
+		height: 2px;
+		background-color: #E5C185;
+	}
+	.full-gallery::after{
+		content: '';
+		display: block;
+		height: 2px;
+		background-color: #E5C185;
 	}
 		
 
