@@ -67,6 +67,7 @@ table {
 @media only screen and (min-width: 300px) {
 	body{
 		font-family: var(--playfair);
+		max-width: 599px;
 	}
 	header{
 		background-color: #1F2A44;
@@ -76,18 +77,19 @@ table {
 		text-align: center;
 	}
 	header img{
-		padding-top: 22px;
+		padding-top: 15px;
+		min-width: 100px;
 	}
 	h1{
 		font-size: 28px;
 		font-weight: 700;
-		padding-top: 30px;
+		padding-top: 20px;
 	}
 	header p{
 		font-size: 9px;
 		font-style: italic;
-		padding-top: 20px;
-		padding-bottom: 15px;
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 	nav{
 		background-color: #E5C185;
@@ -108,28 +110,30 @@ table {
 	}
 	main{
 		background-color: #FAF9F6;
-		padding: 40px 15px 20px;
+		padding: 30px 15px 10px 15px;
 	}
 	h2{
 		color: #1F2A44;
 		font-size: 16px;
-		font-weight: 600;
-		padding-bottom: 12px;
+		font-weight: 400;
+		padding-bottom: 5px
 	}
 	h3{
 		color: #FAF9F6;
-		font-size: 13px;
+		font-size: 15px;
 		font-weight: 700;
 		line-height: 20px;
 	}
 	li{
 		list-style: disc;
 		list-style-position: inside;
+		font-size: 9px;
+		line-height: 12px;
 	}
 	#welcome p{
 		font-size: 9px;
-		line-height: 15px;
-		padding-bottom: 15px;
+		line-height: 12px;
+		padding-bottom: 10px;
 	}
 	#welcome::after{
 		content: '';
@@ -138,19 +142,24 @@ table {
 		background-color: #E5C185;
 	}
 	#our-offerings{
-		padding-top: 15px;
-	}
-	#our-offerings{
 		color: #FAF9F6;
+		padding-top: 15px;
+		padding-bottom: 10px;
+	}
+	#our-offerings p{
 		font-size: 9px;
+		line-height: 12px;
 	}
 	.artisan-provisions, .exclusive-dining-experiences, .the-field-and-feast-monthly-basket{
 		background-color: #76885B;
 		border-radius: 5px;
-		margin: 10px 0;
-		padding: 15px 10px 15px 10px;
-		line-height: 15px;
-		box-shadow: 0 3px 5px 0 #2B2B2B75;
+		margin-top: 5px;
+		margin-bottom: 10px;
+		padding: 10px 15px 10px 10px;
+		box-shadow: 1px 3px 5px 0 #2B2B2B75;
+	}
+	.the-field-and-feast-monthly-basket{
+		margin-bottom: 15px;
 	}
 	#our-offerings::after{
 		content: '';
@@ -158,19 +167,231 @@ table {
 		height: 2px;
 		background-color: #E5C185;
 	}
-	.full-gallery::after{
+	#a-gallery-field-feast{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	#a-gallery-field-feast p{
+		font-size: 9px;
+		line-height: 12px;
+		padding-right: 15px;
+		padding-bottom: 10px;
+	}
+	#a-gallery-field-feast figure{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		background-color: #F8F4EC;
+		border-radius: 5px;
+		margin: 0 auto 20px;
+		box-shadow: 1px 3px 5px 0 #2B2B2B75;
+		margin-bottom: 10px;
+		font-style: italic;
+		font-size: 9px;
+	}
+	#a-gallery-field-feast figure img{
+		min-width: 100%;
+		height: auto;
+		border-radius: 5px 5px 0px 0px;
+	}
+	#a-gallery-field-feast figcaption{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.full-gallery{
+		background-color: #76885B;	
+		color: #FAF9F6;
+		border-radius: 5px;
+		min-height: 30px;
+		font-size: 9px;
+		font-weight: 700;
+		text-align: center;
+		padding-top: 10px;
+		margin-bottom: 15px;
+	}
+	#a-gallery-field-feast::after{
 		content: '';
 		display: block;
 		height: 2px;
 		background-color: #E5C185;
 	}
-		
-
-	
-	
+	footer{
+		background-color: #1F2A44;
+		padding-top: 40px;
+		text-align: center;
+		padding-bottom: 15px;
+	}	
+	#contact-info{
+		color: #FAF9F6;
+		font-size: 9px;
+		line-height: 12px;
+	}
+	.address{
+		padding-bottom: 15px;
+	}
+	.address a{
+		color: #E5C185;
+		font-weight: 700;
+		text-decoration: none;
+	}
+	.social-media a{
+		color: #E5C185;
+		font-size: 9px;
+		font-weight: 700;
+		text-decoration: none;
+	}
 }
 @media only screen and (min-width: 600px) {
-	
+	body{
+		max-width: 899px;
+	}
+	header img{
+		min-width: 200px;
+	}
+	h1{
+		font-size: 48px;
+	}
+	header p{
+		font-size: 15px;
+		font-style: italic;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	nav{
+		min-height: 55px;
+	}
+	nav a{
+		font-size: 20px;
+		padding-top: 15px;
+	}
+	main{
+		padding: 70px 30px 30px 30px;
+	}
+	h2{
+		font-size: 25px;
+		padding-bottom: 10px
+	}
+	h3{
+		font-size: 20px;
+	}
+	li{
+		list-style: disc;
+		list-style-position: inside;
+		font-size: 12px;
+		line-height: 24px;
+	}
+	#welcome p{
+		font-size: 16px;
+		line-height: 24px;
+		padding-bottom: 10px;
+	}
+	#welcome::after{
+		content: '';
+		display: block;
+		height: 2px;
+		background-color: #E5C185;
+	}
+	#our-offerings{
+		color: #FAF9F6;
+		padding-top: 15px;
+		padding-bottom: 10px;
+	}
+	#our-offerings p{
+		font-size: 9px;
+		line-height: 12px;
+	}
+	.artisan-provisions, .exclusive-dining-experiences, .the-field-and-feast-monthly-basket{
+		background-color: #76885B;
+		border-radius: 5px;
+		margin-top: 5px;
+		margin-bottom: 10px;
+		padding: 10px 15px 10px 10px;
+		box-shadow: 1px 3px 5px 0 #2B2B2B75;
+	}
+	.the-field-and-feast-monthly-basket{
+		margin-bottom: 15px;
+	}
+	#our-offerings::after{
+		content: '';
+		display: block;
+		height: 2px;
+		background-color: #E5C185;
+	}
+	#a-gallery-field-feast{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	#a-gallery-field-feast p{
+		font-size: 9px;
+		line-height: 12px;
+		padding-right: 15px;
+		padding-bottom: 10px;
+	}
+	#a-gallery-field-feast figure{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		background-color: #F8F4EC;
+		border-radius: 5px;
+		margin: 0 auto 20px;
+		box-shadow: 1px 3px 5px 0 #2B2B2B75;
+		margin-bottom: 10px;
+		font-style: italic;
+		font-size: 9px;
+	}
+	#a-gallery-field-feast figure img{
+		min-width: 100%;
+		height: auto;
+		border-radius: 5px 5px 0px 0px;
+	}
+	#a-gallery-field-feast figcaption{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.full-gallery{
+		background-color: #76885B;	
+		color: #FAF9F6;
+		border-radius: 5px;
+		min-height: 30px;
+		font-size: 9px;
+		font-weight: 700;
+		text-align: center;
+		padding-top: 10px;
+		margin-bottom: 15px;
+	}
+	#a-gallery-field-feast::after{
+		content: '';
+		display: block;
+		height: 2px;
+		background-color: #E5C185;
+	}
+	footer{
+		background-color: #1F2A44;
+		padding-top: 40px;
+		text-align: center;
+		padding-bottom: 15px;
+	}	
+	#contact-info{
+		color: #FAF9F6;
+		font-size: 9px;
+		line-height: 12px;
+	}
+	.address{
+		padding-bottom: 15px;
+	}
+	.address a{
+		color: #E5C185;
+		font-weight: 700;
+		text-decoration: none;
+	}
+	.social-media a{
+		color: #E5C185;
+		font-size: 9px;
+		font-weight: 700;
+		text-decoration: none;
+	}
 }
 @media only screen and (min-width: 900px) {
 	
