@@ -65,7 +65,48 @@ table {
 }
 /* GLOBAL STYLES (mobile first/small) */
 @media only screen and (min-width: 300px) {
-	
+	body{
+		
+	}
+	header{
+		background-color: #1F2A44;
+	}
+	nav{
+		background-color: #E5C185;
+	}
+	main{
+		background-color: #FAF9F6;
+	}
+	.artisan-provisions{
+		background-color: #76885B;
+	}
+	.exclusive-dining-experiences{
+		background-color: #76885B;
+	}
+	.the-field-and-feast-monthly-basket{
+		background-color: #76885B;
+	}
+	.tomatoes{
+		background-color: #F8F4EC;
+	}
+	.olive-oil{
+		background-color: #F8F4EC;
+	}
+	.table-setting{
+		background-color: #F8F4EC;
+	}
+	.chef-plating{
+		background-color: #F8F4EC;
+	}
+	.basket{
+		background-color: #F8F4EC;
+	}
+	.full-gallery{
+		background-color: #76885B;
+	}
+	footer{
+		background-color: #1F2A44;
+	}
 	
 }
 @media only screen and (min-width: 600px) {
