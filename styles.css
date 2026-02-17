@@ -71,6 +71,8 @@ table {
 	header{
 		background-color: #1F2A44;
 		color: #FAF9F6;
+		align-items: center;
+		text-align: center;
 	}
 	nav{
 		background-color: #E5C185;
@@ -86,44 +88,61 @@ table {
 		padding-right: 15px;
 	}
 	h1{
-		color:#FAF9F6
+		color: #faf9f6;
+		font-size: 37px;
+		font-weight: 700;
 	}
 	h2{
 		color:#1F2A44;
+		font-size: 18px;
+		font-weight: 400;
 	}
 	h3{
 		color:#FAF9F6;
+		font-size: 17px;
+		font-weight: 400;
 	}
 	.artisan-provisions{
 		background-color: #76885B;
+		border-radius: 5px;
 	}
 	.exclusive-dining-experiences{
 		background-color: #76885B;
+		border-radius: 5px;
 	}
 	.the-field-and-feast-monthly-basket{
 		background-color: #76885B;
+		border-radius: 5px;
 	}
 	.tomatoes{
 		background-color: #F8F4EC;
+		border-radius: 5px;
 	}
 	.olive-oil{
 		background-color: #F8F4EC;
+		border-radius: 5px;
 	}
 	.table-setting{
 		background-color: #F8F4EC;
+		border-radius: 5px;
 	}
 	.chef-plating{
 		background-color: #F8F4EC;
+		border-radius: 5px;
 	}
 	.basket{
 		background-color: #F8F4EC;
+		border-radius: 5px;
 	}
 	.full-gallery{
 		background-color: #76885B;
+		border-radius: 5px;
 	}
 	footer{
 		background-color: #1F2A44;
 		color: #FAF9F6;
+		align-items: center;
+		text-align: center;
 	}
 	footer a{
 		color: #E5C185;
