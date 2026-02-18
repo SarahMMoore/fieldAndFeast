@@ -273,50 +273,50 @@ table {
 		padding-bottom: 10px
 	}
 	h3{
-		font-size: 20px;
+		font-size: 25px;
+		line-height: 30px;
+		padding-right: 30px;
 	}
 	li{
 		list-style: disc;
 		list-style-position: inside;
-		font-size: 12px;
+		font-size: 16px;
 		line-height: 24px;
 	}
 	#welcome p{
 		font-size: 16px;
 		line-height: 24px;
-		padding-bottom: 10px;
-	}
-	#welcome::after{
-		content: '';
-		display: block;
-		height: 2px;
-		background-color: #E5C185;
+		padding-bottom: 28px;
 	}
 	#our-offerings{
-		color: #FAF9F6;
-		padding-top: 15px;
-		padding-bottom: 10px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto auto auto auto auto; 
+		column-gap: 20px;
+		grid-template-areas: 
+			"offerings offerings"
+			"provisions experiences"
+			"basket basket"
+			"line line";
+		grid-area: offerings;
 	}
 	#our-offerings p{
-		font-size: 9px;
-		line-height: 12px;
-	}
-	.artisan-provisions, .exclusive-dining-experiences, .the-field-and-feast-monthly-basket{
-		background-color: #76885B;
-		border-radius: 5px;
-		margin-top: 5px;
-		margin-bottom: 10px;
-		padding: 10px 15px 10px 10px;
-		box-shadow: 1px 3px 5px 0 #2B2B2B75;
-	}
-	.the-field-and-feast-monthly-basket{
-		margin-bottom: 15px;
+		font-size: 16px;
+		line-height: 24px;
 	}
 	#our-offerings::after{
-		content: '';
-		display: block;
-		height: 2px;
-		background-color: #E5C185;
+		display: grid;
+		grid-area: line;
+	}
+	.artisan-provisions{
+		grid-area: provisions;
+	} 
+	.exclusive-dining-experiences{
+		grid-area: experiences;
+	} 
+	.the-field-and-feast-monthly-basket{	
+		grid-area: basket;
+		margin-bottom: 25px;
 	}
 	#a-gallery-field-feast{
 		padding-top: 10px;
@@ -360,12 +360,6 @@ table {
 		text-align: center;
 		padding-top: 10px;
 		margin-bottom: 15px;
-	}
-	#a-gallery-field-feast::after{
-		content: '';
-		display: block;
-		height: 2px;
-		background-color: #E5C185;
 	}
 	footer{
 		background-color: #1F2A44;
