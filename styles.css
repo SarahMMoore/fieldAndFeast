@@ -178,10 +178,8 @@ table {
 		padding-bottom: 10px;
 	}
 	#a-gallery-field-feast figure{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		text-align: center;
+		display: grid;
+		grid-template-columns: auto;
 		background-color: #F8F4EC;
 		border-radius: 5px;
 		margin: 0 auto 20px;
@@ -189,6 +187,7 @@ table {
 		margin-bottom: 10px;
 		font-style: italic;
 		font-size: 9px;
+		text-align: center;
 	}
 	#a-gallery-field-feast figure img{
 		min-width: 100%;
@@ -291,64 +290,85 @@ table {
 	#our-offerings{
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-template-rows: auto auto auto auto auto; 
+		grid-template-rows: auto auto auto auto; 
 		column-gap: 20px;
-		grid-template-areas: 
-			"offerings offerings"
-			"provisions experiences"
-			"basket basket"
-			"line line";
-		grid-area: offerings;
+	}
+	#our-offerings h2{
+		grid-row: 1;
+		grid-column: span 2;
 	}
 	#our-offerings p{
 		font-size: 16px;
 		line-height: 24px;
 	}
 	#our-offerings::after{
-		display: grid;
-		grid-area: line;
+		grid-row: 4;
+		grid-column: span 2;
 	}
 	.artisan-provisions{
-		grid-area: provisions;
+		grid-row: 2;
+		grid-column: 1;
 	} 
 	.exclusive-dining-experiences{
-		grid-area: experiences;
+		grid-row: 2;
+		grid-column: 2;
 	} 
 	.the-field-and-feast-monthly-basket{	
-		grid-area: basket;
+		grid-row: 3;
+		grid-column: span 2;
 		margin-bottom: 25px;
 	}
 	#a-gallery-field-feast{
-		padding-top: 10px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto auto auto auto auto auto; 
+		column-gap: 20px;
+		grid-area: 1 / 3;
+		grid-template-areas: 
+			"feast feast"
+			"experience experience"
+			"tomatoes olive-oil"
+			"tablescape plating"
+			"basket basket"
+			"full full"
+			"border border";
+		grid-area: feast;
+		font-size: 16px;
+		padding-top: 20px;
 		padding-bottom: 10px;
 	}
 	#a-gallery-field-feast p{
-		font-size: 9px;
-		line-height: 12px;
-		padding-right: 15px;
-		padding-bottom: 10px;
+		font-size: 16px;
+		line-height: 24px;
+		grid-area: experience;
 	}
-	#a-gallery-field-feast figure{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		text-align: center;
-		background-color: #F8F4EC;
-		border-radius: 5px;
-		margin: 0 auto 20px;
-		box-shadow: 1px 3px 5px 0 #2B2B2B75;
-		margin-bottom: 10px;
-		font-style: italic;
-		font-size: 9px;
+	.tomatoes{
+		grid-area: tomatoes;
+	}
+	.olive-oil{
+		grid-area: olive-oil;
+	}
+	.table-setting{
+		grid-area: tablescape;
+	}
+	.chef-plating{
+		grid-area: plating;
+	}
+	.basket{
+		grid-area: basket;
+	}
+	.full-gallery{
+		grid-area: full;
 	}
 	#a-gallery-field-feast figure img{
 		min-width: 100%;
 		height: auto;
-		border-radius: 5px 5px 0px 0px;
 	}
 	#a-gallery-field-feast figcaption{
-		padding-top: 10px;
-		padding-bottom: 10px;
+
+	}
+	#a-gallery-field-feast::after{
+		grid-area: border;
 	}
 	.full-gallery{
 		background-color: #76885B;	
