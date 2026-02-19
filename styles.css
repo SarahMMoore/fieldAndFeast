@@ -131,6 +131,14 @@ table {
 		font-weight: 700;
 		line-height: 20px;
 	}
+	h4{
+		font-size: 10px;
+		font-weight: 600;
+		line-height: 20px;
+		text-align: center;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
 	#welcome p{
 		font-size: 8px;
 		font-weight: 400;
@@ -215,11 +223,6 @@ table {
 		background-color: #76885B;	
 		color: #FAF9F6;
 		border-radius: 5px;
-		font-size: 10px;
-		font-weight: 700;
-		line-height: 20px;
-		text-align: center;
-		padding-top: 10px;
 		margin-bottom: 12px;
 	}
 	#a-gallery-field-feast::after{
@@ -296,96 +299,142 @@ table {
 		line-height: 22.675px;
 		padding-bottom: 26px;
 	}
-	h3{
-		color: #FAF9F6;
-		font-size: 15px;
-		font-weight: 700;
-		line-height: 20px;
-	}
-	#welcome::after{
-		content: '';
-		display: block;
-		height: 2px;
-		background-color: #E5C185;
-	}
 	#our-offerings{
-		color: #FAF9F6;
-		padding-top: 15px;
-		padding-bottom: 15px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto auto auto auto;
+		column-gap: 20px;
+		padding-top: 35px;
+		padding-bottom: 20px;
+		grid-row: 1;
+		grid-column: span 2;
 	}
-	#our-offerings p{
-		font-size: 9px;
-		font-weight: 400;
-		line-height: 12px;
+	#our-offerings p, li{
+		font-size: 16px;
+		line-height: 22.675px;
 	}
-	.artisan-provisions, .exclusive-dining-experiences, .the-field-and-feast-monthly-basket{
-		background-color: #76885B;
-		border-radius: 5px;
-		margin-top: 5px;
+	h3{
+		font-size: 25px;
+		line-height: 40px;
+	}
+	.artisan-provisions{
+		grid-row: 2;
+		grid-column: 1;
+		margin-top: 15px;
 		margin-bottom: 10px;
-		padding: 10px 15px 10px 10px;
-		box-shadow: 1px 3px 5px 0 #2B2B2B75;
+		padding: 25px 30px 20px 15px;
 	}
-	li{
-		list-style: disc;
-		list-style-position: inside;
-		font-size: 9px;
-		font-weight: 400;
-		line-height: 12px;
+	.artisan-provisions h3{
+		padding-right: 60px;
+	}
+	.exclusive-dining-experiences{
+		grid-row: 2;
+		grid-column: 2;
+		margin-top: 15px;
+		padding: 25px 30px 20px 15px;
 	}
 	.the-field-and-feast-monthly-basket{
-		margin-bottom: 15px;
+		grid-row: 3;
+		grid-column: span 2;
+		margin-top: 10px;
+		margin-bottom: 25px;
+		padding: 25px 15px 20px 15px;
 	}
 	#our-offerings::after{
+		grid-row: 4;
+		grid-column: span 2;
 		content: '';
 		display: block;
 		height: 2px;
 		background-color: #E5C185;
 	}
-	#a-gallery-field-feast{
-		padding-top: 5px;
+	#a-gallery-field-feast {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto auto auto auto auto auto auto auto auto;
+		column-gap: 20px;
+		margin-bottom: 10px;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-top: 15px;
+		font-size: 9px;
+		line-height: 12px;
+	}
+	#a-gallery-field-feast h2{
+		grid-row: 1;
+		grid-column: span 2;
 	}
 	#a-gallery-field-feast p{
-		font-size: 9px;
-		font-weight: 400;
-		line-height: 12px;
-		padding-right: 15px;
-		padding-bottom: 15px;
+		font-size: 16px;
+		line-height: 22.675px;
+		padding-bottom: 25px;
+		grid-row: 2;
+		grid-column: span 2;
+
 	}
-	#a-gallery-field-feast figure{
-		display: grid;
-		grid-template-columns: auto;
-		background-color: #FAF9F6;
-		border-radius: 5px;
-		margin: 0 auto 20px;
-		box-shadow: 1px 3px 5px 0 #2B2B2B75;
-		margin-bottom: 10px;
-		font-size: 9px;
-		font-weight: 400;
-		line-height: 12px;
-		font-style: italic;
-		text-align: center;
+	img{
+		width: 260px;
 	}
-	#a-gallery-field-feast figure img{
-		min-width: 100%;
-		height: auto;
-		border-radius: 5px 5px 0px 0px;
+	figure.tomatoes{
+		grid-row: 3;
+		grid-column: 1;
+		width: 260px;
+
+	} 
+	figure.tomatoes figcaption{
+		grid-row: 4;
+		grid-column: 1;
+		width: 260px;		
 	}
-	#a-gallery-field-feast figcaption{
-		padding-top: 10px;
-		padding-bottom: 10px;
-		color: #2B2B2B;
+	figure.olive-oil{
+		grid-row: 3;
+		grid-column: 2;
+		width: 260px;		
+
+	}
+	figure.olive-oil figcaption{
+		grid-row: 4;
+		width: 260px;
+	}
+	figure.table-setting{
+		grid-row: 5;
+		grid-column: 1;
+		width: 260px;
+	}
+	figure.table-setting figcaption{
+		grid-row: 6;
+		grid-column: 1;
+		width: 260px;
+	}
+	figure.chef-plating{
+		grid-row: 5;
+		grid-column: 2;
+		width: 260px;
+	}
+	figure.chef-plating figcaption{
+		grid-row: 6;
+		width: 260px;
+	}
+	figure.basket{
+		grid-row: 7;
+		grid-column: 1;
+		width: 260px;
+	}
+	figure.basket figcaption{
+		grid-row: 8;
+		grid-column: 1;
+		width: 260px;
 	}
 	.full-gallery{
-		background-color: #76885B;	
-		color: #FAF9F6;
-		border-radius: 5px;
-		font-size: 10px;
-		font-weight: 700;
-		line-height: 20px;
-		text-align: center;
-		padding-top: 10px;
-		margin-bottom: 12px;
+		grid-row: 9;
+		grid-column: span 2;
+		width: 540px;
+	}
+h4{
+		font-size: 12px;
+		line-height: 15px;
+		padding-top: 15px;
+		padding-bottom: 15px;
 	}
 	#a-gallery-field-feast::after{
 		content: '';
