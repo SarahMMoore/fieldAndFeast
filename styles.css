@@ -266,7 +266,166 @@ table {
 	body{
 		max-width: 899px;
 	}
-	
+	header img{
+		padding-top: 20px;
+		max-width: 200px;
+	}
+	h1{
+		font-size: 55px;
+		padding-top: 30px;
+	}
+	header p{
+		font-size: 15px;
+		padding-top: 35px;
+		padding-bottom: 30px;
+	}
+	nav a{
+		font-size: 20px;
+		padding-top: 16px;
+		padding-bottom: 17px;
+	}
+	main{
+		background-color: #FAF9F6;
+		padding: 30px 15px 20px 15px;
+	}
+	h2{
+		color: #1F2A44;
+		font-size: 14px;
+		font-weight: 400;
+		padding-bottom: 10px
+	}
+	h3{
+		color: #FAF9F6;
+		font-size: 15px;
+		font-weight: 700;
+		line-height: 20px;
+	}
+	#welcome p{
+		font-size: 8px;
+		font-weight: 400;
+		line-height: 12px;
+		padding-bottom: 10px;
+	}
+	#welcome::after{
+		content: '';
+		display: block;
+		height: 2px;
+		background-color: #E5C185;
+	}
+	#our-offerings{
+		color: #FAF9F6;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	#our-offerings p{
+		font-size: 9px;
+		font-weight: 400;
+		line-height: 12px;
+	}
+	.artisan-provisions, .exclusive-dining-experiences, .the-field-and-feast-monthly-basket{
+		background-color: #76885B;
+		border-radius: 5px;
+		margin-top: 5px;
+		margin-bottom: 10px;
+		padding: 10px 15px 10px 10px;
+		box-shadow: 1px 3px 5px 0 #2B2B2B75;
+	}
+	li{
+		list-style: disc;
+		list-style-position: inside;
+		font-size: 9px;
+		font-weight: 400;
+		line-height: 12px;
+	}
+	.the-field-and-feast-monthly-basket{
+		margin-bottom: 15px;
+	}
+	#our-offerings::after{
+		content: '';
+		display: block;
+		height: 2px;
+		background-color: #E5C185;
+	}
+	#a-gallery-field-feast{
+		padding-top: 5px;
+	}
+	#a-gallery-field-feast p{
+		font-size: 9px;
+		font-weight: 400;
+		line-height: 12px;
+		padding-right: 15px;
+		padding-bottom: 15px;
+	}
+	#a-gallery-field-feast figure{
+		display: grid;
+		grid-template-columns: auto;
+		background-color: #FAF9F6;
+		border-radius: 5px;
+		margin: 0 auto 20px;
+		box-shadow: 1px 3px 5px 0 #2B2B2B75;
+		margin-bottom: 10px;
+		font-size: 9px;
+		font-weight: 400;
+		line-height: 12px;
+		font-style: italic;
+		text-align: center;
+	}
+	#a-gallery-field-feast figure img{
+		min-width: 100%;
+		height: auto;
+		border-radius: 5px 5px 0px 0px;
+	}
+	#a-gallery-field-feast figcaption{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		color: #2B2B2B;
+	}
+	.full-gallery{
+		background-color: #76885B;	
+		color: #FAF9F6;
+		border-radius: 5px;
+		font-size: 10px;
+		font-weight: 700;
+		line-height: 20px;
+		text-align: center;
+		padding-top: 10px;
+		margin-bottom: 12px;
+	}
+	#a-gallery-field-feast::after{
+		content: '';
+		display: block;
+		height: 2px;
+		background-color: #E5C185;
+	}
+	footer{
+		background-color: #1F2A44;
+		padding-top: 60px;
+		text-align: center;
+		padding-bottom: 15px;
+	}	
+	#contact-info{
+		color: #FAF9F6;
+		font-size: 9px;
+		font-weight: 400;
+		line-height: 12px;
+	}
+	.address{
+		padding-bottom: 30px;
+	}
+	.address a{
+		color: #E5C185;
+		font-size: 9px;
+		font-weight: 700;
+		line-height: 20px;
+		text-decoration: none;
+	}
+	.social-media a{
+		color: #E5C185;
+		font-size: 9px;
+		font-weight: 700;
+		line-height: 20px;
+		text-decoration: none;
+	}
 }
 /* LARGE *//* LARGE *//* LARGE *//* LARGE *//* LARGE */
 /* LARGE *//* LARGE *//* LARGE *//* LARGE *//* LARGE */
