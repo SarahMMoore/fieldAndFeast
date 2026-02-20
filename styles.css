@@ -367,7 +367,7 @@ table {
 		margin-bottom: 20px;
 	}
 	#a-gallery-field-feast figure img{
-		width: 260px;
+		max-width: 100%;
 		height: auto;
 	}
 	figure.tomatoes{
@@ -398,7 +398,7 @@ table {
 		padding: 15px 5px 10px;
 		font-size: 15px;
 		line-height: 20px;
-		height: 40px;
+		min-height: 40px;
 	}
 	#a-gallery-field-feast::after{
 		grid-column: span 2;
