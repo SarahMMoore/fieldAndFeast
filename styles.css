@@ -418,6 +418,9 @@ table {
 		font-size: 15px;
 		line-height: 20px;
 	}
+	#contact-info{
+		padding-bottom: 0px;
+	}
 	address{
 		padding-bottom: 10px;
 	}
@@ -446,6 +449,7 @@ table {
 	body{
 		max-width: 1199px;
 	}
+
 }
 /* X-LARGE *//* X-LARGE *//* X-LARGE *//* X-LARGE *//* X-LARGE */
 /* X-LARGE *//* X-LARGE *//* X-LARGE *//* X-LARGE *//* X-LARGE */
