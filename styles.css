@@ -449,7 +449,77 @@ table {
 	body{
 		max-width: 1199px;
 	}
-
+	h1{
+		font-size: 55px;
+		padding-top: 20px;
+	}
+	header p{
+		padding-bottom: 25px;
+	}
+	nav a{
+		font-size: 20px;
+		line-height: 25px;
+	}
+	main{
+		padding-top: 65px;
+	}
+	#welcome p{
+		padding-bottom: 30px;
+	}
+	#our-offerings{
+		padding-top: 40px
+	}
+	#a-gallery-field-feast{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: auto auto auto auto auto auto;
+	}
+	#a-gallery-field-feast figure img{
+		max-width: 100%;
+		height: auto;
+	}
+	#a-gallery-field-feast h2{
+		grid-column: span 3;
+		grid-row: 1;
+	}
+	#a-gallery-field-feast p{
+		grid-column: span 3;
+		grid-row: 2;
+	}
+	figure.tomatoes{
+		grid-column: 1;
+		grid-row: 3;
+	}
+	figure.olive-oil{
+		grid-column: 2;
+		grid-row: 3;
+	}
+	figure.table-setting{
+		grid-column: 3;
+		grid-row: 3;
+	}
+	figure.chef-plating{
+		grid-column: 1;
+		grid-row: 4;
+	}
+	figure.basket{
+		grid-column: 2;
+		grid-row: 4;
+	}
+	.full-gallery{
+		grid-column: span 3;
+		grid-row: 5;
+	}
+	#a-gallery-field-feast::after{
+		grid-column: span 3;
+		grid-row: 6;
+	}
+	#a-gallery-field-feast figcaption{
+		padding: 15px 15px;
+	}
+	footer{
+		padding-bottom: 25px;
+	}
 }
 /* X-LARGE *//* X-LARGE *//* X-LARGE *//* X-LARGE *//* X-LARGE */
 /* X-LARGE *//* X-LARGE *//* X-LARGE *//* X-LARGE *//* X-LARGE */
