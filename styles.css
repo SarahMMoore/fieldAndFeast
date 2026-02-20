@@ -529,4 +529,11 @@ table {
 	body{
 		max-width: none;
 	}
+	header p{
+		font-size: 17px;
+	}
+	main{
+		padding-left: 180px;
+		padding-right: 180px;
+	}
 }
