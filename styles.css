@@ -341,13 +341,72 @@ table {
 		padding: 25px 15px 20px 15px;
 	}
 	#our-offerings::after{
-		
 		grid-row: 4;
 		grid-column: span 2;
 	}
+
 	
+	#a-gallery-field-feast{
+		padding-top: 5px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto auto auto auto auto auto;
+		column-gap: 20px;		
+	}
+	#a-gallery-field-feast h2{
+		grid-column: span 2;
+		grid-row: 1;
+	}
+	#a-gallery-field-feast p{
+		font-size: 15px;
+		line-height: 20px;
+		padding-right: 25px;
+		padding-bottom: 22px;
+		grid-column: span 2;
+		grid-row: 2;
+	}
+	#a-gallery-field-feast figure{
+		font-size: 15px;
+		line-height: 20px;
+		padding-bottom: 25px;
+		margin-bottom: 15px;
+	}
+	#a-gallery-field-feast figure img{
+		width: 260px;
+	}
+	figure.tomatoes{
+		grid-column: 1;
+		grid-row: 3;
+	}
+	figure.olive-oil{
+		grid-column: 2;
+		grid-row: 3;
+	}
+	figure.table-setting{
+		grid-column: 1;
+		grid-row: 4;
+	}
+	figure.chef-plating{
+		grid-column: 2;
+		grid-row: 4;
+	}
+	figure.basket{
+		grid-column: 1;
+		grid-row: 5;
+	}
+	.full-gallery{
+		grid-column: span 2;
+		grid-row: 6;
+	}
 	
-/* TO DO GALLERY */
+	#a-gallery-field-feast figcaption{
+		padding-top: 15px;
+	}
+	.full-gallery{
+		
+		
+	}
+
 
 
 
