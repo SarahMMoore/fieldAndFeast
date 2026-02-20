@@ -344,8 +344,6 @@ table {
 		grid-row: 4;
 		grid-column: span 2;
 	}
-
-	
 	#a-gallery-field-feast{
 		padding-top: 5px;
 		display: grid;
@@ -366,7 +364,6 @@ table {
 		grid-row: 2;
 	}
 	#a-gallery-field-feast figure{
-
 		margin-bottom: 20px;
 	}
 	#a-gallery-field-feast figure img{
@@ -376,12 +373,10 @@ table {
 	figure.tomatoes{
 		grid-column: 1;
 		grid-row: 3;
-
 	}
 	figure.olive-oil{
 		grid-column: 2;
 		grid-row: 3;
-
 	}
 	figure.table-setting{
 		grid-column: 1;
@@ -410,6 +405,11 @@ table {
 		grid-row: 7;
 		margin-bottom: 25px;
 	}
+	h4{
+		font-size: 15px;
+		line-height: 20px;
+		padding: 15px 0px;
+	}
 	footer{
 		padding-top: 75px;
 		padding-bottom: 30px;
@@ -437,9 +437,6 @@ table {
 		font-size: 15px;
 		line-height: 20px;
 	}
-
-	
-	
 }
 /* LARGE *//* LARGE *//* LARGE *//* LARGE *//* LARGE */
 /* LARGE *//* LARGE *//* LARGE *//* LARGE *//* LARGE */
